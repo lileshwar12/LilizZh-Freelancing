@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editor Portfolio</title>
+  <meta name="description" content="Simple and professional video editor portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="logo">LilizZh <span>Editor</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#samples">Samples</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Freelance Video Editor</p>
+        <h1>Reliable Video Editing for Serious Clients.</h1>
+        <p class="lead">
+          I deliver clean edits on time, communicate clearly, and make the full process easy from first brief to final export.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#samples">View Samples</a>
+          <a class="btn btn-ghost" href="mailto:lilizzh.studio@gmail.com?subject=New%20Video%20Editing%20Inquiry">Contact Me</a>
+        </div>
+        <div class="trust-list">
+          <p>On-time delivery</p>
+          <p>Clear communication</p>
+          <p>Reliable quality</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="samples">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Sample Work</p>
+          <h2>My Work</h2>
+        </div>
+        <div class="sample-grid">
+          <article class="sample-card">
+            <div class="sample-label">Reel</div>
+            <h3>Oregon Sample Reel</h3>
+            <p>Main showreel featuring cinematic shots and storytelling edits.</p>
+            <a class="btn btn-ghost" href="reel.html">Watch Reel</a>
+          </article>
+          <article class="sample-card">
+            <div class="sample-label">Videos</div>
+            <h3>Sample Videos</h3>
+            <p>Short-form and long-form edits with clean cuts, captions, and pacing.</p>
+            <a class="btn btn-ghost" href="video.html">View Videos</a>
+          </article>
+          <article class="sample-card">
+            <div class="sample-label">Thumbnail</div>
+            <h3>Sample Thumbnail Design</h3>
+            <p>Simple, high-contrast thumbnail designs for better click-through rates.</p>
+            <a class="btn btn-ghost" href="thumbnail.html">View Thumbnail</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Services</p>
+          <h2>What Clients Get</h2>
+        </div>
+        <div class="service-grid">
+          <article>
+            <h3>Video Editing</h3>
+            <p>Clean and professional editing for YouTube, Reels, and business videos.</p>
+          </article>
+          <article>
+            <h3>Color & Audio Polish</h3>
+            <p>Balanced color and audio cleanup for a finished, high-quality look.</p>
+          </article>
+          <article>
+            <h3>Captions & Graphics</h3>
+            <p>Simple motion graphics and captions to improve clarity and engagement.</p>
+          </article>
+          <article>
+            <h3>Platform Exports</h3>
+            <p>Correct file delivery for YouTube, Instagram, TikTok, and other platforms.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Process</p>
+          <h2>Simple and Reliable Process</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <h3>1. Brief</h3>
+            <p>You share your footage, goals, and timeline.</p>
+          </article>
+          <article>
+            <h3>2. First Cut</h3>
+            <p>I create a draft edit based on your direction.</p>
+          </article>
+          <article>
+            <h3>3. Revisions</h3>
+            <p>I update the video with your feedback.</p>
+          </article>
+          <article>
+            <h3>4. Delivery</h3>
+            <p>You receive the final export files.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Let’s Work Together</p>
+          <h2>Contact</h2>
+          <p class="lead">
+            Send your project details. I usually respond within 24 hours.
+          </p>
+          <div class="contact-direct">
+            <p><strong>Email:</strong> <a href="mailto:lilizzh.studio@gmail.com">lilizzh.studio@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+917020082894">+91 70200 82894</a></p>
+            <a class="btn btn-ghost" href="https://wa.me/917020082894" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/lilizzh.studio@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Video Editing Inquiry">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+          
+          <label for="phone">Phone</label>
+          <input id="phone" type="tel" name="phone" required>
+
+          <label for="details">Project Details</label>
+          <textarea id="details" name="details" rows="5" required></textarea>
+         
+          <p class="allow-call">
+            <input id="allow-calls" type="checkbox" name="allow-calls" required>
+            <label for="allow-calls">I allow calls from the client</label>
+          </p>
+
+          
+          <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© 2026 Your Name. All rights reserved.</p>
+      <p>Video Editor</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
